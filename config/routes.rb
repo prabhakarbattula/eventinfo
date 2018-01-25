@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 EventInfo::Application.routes.draw do
+  resources :events
   # Setting path_prefix makes sure that devise routes do not conflict
   # with users resources routes.
   #
